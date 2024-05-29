@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+#banner{
+    height: 400px;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+}
+
+#titulo-banner{
+    font-family: "Sacramento";
+    font-size: 200px;
+    color: #224217;
+    padding-top: 40px;
+}
+
+#subtitulo-banner{
+    font-size: 60px;
+    color: #224217;
+    font-weight: 500px;
+}
+
+.navbar{
+    background-color: #4e6845;
+    padding: 10px 40px;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: #f4e7d6;
+    font-weight: 400;
+    padding: 0 40px;
+}
+
+#suscripciones{
+    background-image: url(../images/inicio-fantasia.png);
+    background-size: cover;
+    height: 500px;
+}
+
+.inicio-suscripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-suscripcion{
+    color: #224217;
+    font-size: 60px;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.titulo-genero{
+    color: #224217;
+    font-size: 200px;
+    font-family: "Sacramento";
+}
+
+#suscripciones p{
+    color: #224217;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+.libro-mes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 12px 60px;
+    color: #f4e7d6;
+    background-color: #4e6845;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.foto-libro{
+    height: 450px;
+    border: 2px solid #224217;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#nuevoProducto{
+    background-color: #4e6845;
+    height: 400px;
+}
+
+.imagenes-nuevo-producto{
+    width: 55%;
+    margin-left: 30px;
+}
+
+#nuevoProducto img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #f4e7d6;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 8px;
+}
+
+.texto-nuevo-producto{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+#nuevoProducto h4{
+    color: #f4e7d6;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+#nuevoProducto h3{
+    color: #f4e7d6;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+#nuevoProducto .btn-invertido{
+    padding: 12px 24px;
+    color: #224217;
+    background-color: #f4e7d6;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: fit-content;
+}
+
+#nuevaSuscripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../images/libro-terror.png);
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.proximamente{
+    margin-top: 50px;
+}
+
+.proximamente .texto-flecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 40px;
+}
+
+.texto-flecha h4{
+    font-size: 50px;
+    font-weight: 500;
+    color: #224217;
+}
+
+.texto-flecha img{
+    height: 70px;
+    margin-left: 30px;
+}
+
+.nuevo-libro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.nuevo-libro p{
+    color: #224217;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.proximamente-terror{
+    padding-left: 200px;
+    margin-top: 50px;
+}
+
+.proximamente-terror p{
+    color: #224217;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 40px 0;
+}
+
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4e6845;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer a{
+    color: #f4e7d6;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar .nombre-inicio{
+    font-family: "Sacramento";
+    font-size: 60px;
+}
+
+#productos{
+    background-color: #f4e7d6;
+}
+
+h1{
+    padding: 20px;
+    color: #224217;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#productos .card{
+    background-color: #f4e7d6;
+    border: 1px solid #224217;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.card-container{
+    margin-left: 50px;
+}
+
+.card img{
+    height: 300px;
+}
+
+.card h5{
+    color: #224217;
+    font-size: 20px;
+}
+
+.card p{
+    color: #224217;
+    font-weight: 500;
+}
+ .card a{
+    font-size: 18px;
+}
+
+#formulario-contacto{
+    padding-left: 50px;
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+}
+
+#formulario-contacto p{
+    color: #224217;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 10px;
+ }
+
+ .form-label{
+    color: #224217;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 30px;
+ }
+
+ .formulario-contacto .btn{
+    margin-bottom: 245px;
+    position: relative;
+    left: 40%;
+    margin-top: 50px;
+ }
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+#suscripcionesDetalles{
+    background-image: url(../images/fondo-suscripcion.png);
+    background-size: cover;
+}
+
+ #suscripcionesDetalles .card{
+    height: 500px;
+    background-color: #4e6845;
+    margin: 50px auto;
+ }
+
+ #suscripcionesDetalles .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #suscripcionesDetalles .card h5{
+    font-family: "Sacramento";
+    font-size: 70px;
+    color: #f4e7d6;
+    padding-bottom: 20px;
+}
+
+#suscripcionesDetalles .card p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #f4e7d6;
+    padding-bottom: 20px;
+}
+
+#suscripcionesDetalles .card a{
+    color: #224217;
+    background-color: #f4e7d6;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+#suscripcionesDetalles{
+    background-color: #f4e7d6;
+}
+
+#suscripcionesDetalles h2{
+    font-size: 30px;
+    color: #224217;
+}
+
+#suscripcionesDetalles h3{
+    font-size: 20px;
+    color: #224217;
+    font-weight: 600;
+}
+
+#suscripcionesDetalles p{
+    font-size: 16px;
+    color: #224217;
+    font-weight: 600;
+}
