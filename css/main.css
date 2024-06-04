@@ -354,9 +354,6 @@ h1{
     font-weight: 600;
 }
 
-.subtitulo-cuenta{
-    color: #224217;
-}
 
 .suscripcion-fantasia{
     background-image: url(../images/fondo-fantasia.png);
@@ -390,4 +387,14 @@ h1{
     color: #f4e7d6;
     font-size: 24px;
     font-weight: 400;
+}
+
+.suscripcion-misterio{
+    background-image: url(../images/fondo-misterio2.png);
+    background-size: cover;
+}
+
+.suscripcion-romance{
+    background-image: url(../images/fondo-romance.png);
+    background-size: cover;
 }
