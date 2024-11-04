@@ -84,6 +84,12 @@
     font-weight: 500;
 }
 
+.btn:hover{
+    border: 2px solid #4e6845;
+    color: #4e6845;
+}
+
+
 .foto-libro{
     height: 450px;
     border: 2px solid #224217;
@@ -102,8 +108,8 @@
 }
 
 #nuevoProducto img{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border: 2px solid #f4e7d6;
     border-radius: 8px;
     margin-top: 50px;
@@ -113,8 +119,8 @@
 .texto-nuevo-producto{
     display: flex;
     flex-direction: column;
-    padding: 0;
-    margin: 0;
+    padding: 30px;
+    margin-top: 30px;
 }
 
 #nuevoProducto h4{
